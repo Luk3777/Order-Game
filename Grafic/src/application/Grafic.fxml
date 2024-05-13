@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="980.0" prefWidth="800.0" style="-fx-background-color: #a2d6f5;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GraficController">
+   <children>
+      <Region fx:id="sug_box11" layoutX="70.0" layoutY="320.0" prefHeight="110.0" prefWidth="110.0" />
+      <Region fx:id="sug_box25" layoutX="615.0" layoutY="600.0" prefHeight="110.0" prefWidth="110.0" />
+      <Region fx:id="sug_box24" layoutX="484.0" layoutY="600.0" prefHeight="110.0" prefWidth="110.0" />
+      <Region fx:id="sug_box23" layoutX="345.0" layoutY="600.0" prefHeight="110.0" prefWidth="110.0" />
+      <Region fx:id="sug_box22" layoutX="206.0" layoutY="600.0" prefHeight="110.0" prefWidth="110.0" />
+      <Region fx:id="sug_box21" layoutX="70.0" layoutY="600.0" prefHeight="110.0" prefWidth="110.0" />
+      <Region fx:id="sug_box20" layoutX="615.0" layoutY="460.0" prefHeight="110.0" prefWidth="110.0" />
+      <Region fx:id="sug_box19" layoutX="484.0" layoutY="460.0" prefHeight="110.0" prefWidth="110.0" />
+      <Region fx:id="sug_box18" layoutX="345.0" layoutY="460.0" prefHeight="110.0" prefWidth="110.0" />
+      <Region fx:id="sug_box17" layoutX="206.0" layoutY="460.0" prefHeight="110.0" prefWidth="110.0" />
+      <Region fx:id="sug_box16" layoutX="70.0" layoutY="460.0" prefHeight="110.0" prefWidth="110.0" />
+      <Region fx:id="sug_box15" layoutX="615.0" layoutY="320.0" prefHeight="110.0" prefWidth="110.0" />
+      <Region fx:id="sug_box14" layoutX="484.0" layoutY="320.0" prefHeight="110.0" prefWidth="110.0" />
+      <Region fx:id="sug_box13" layoutX="345.0" layoutY="320.0" prefHeight="110.0" prefWidth="110.0" />
+      <Region fx:id="sug_box12" layoutX="206.0" layoutY="320.0" prefHeight="110.0" prefWidth="110.0" />
+      <Region fx:id="sug_box5" layoutX="615.0" layoutY="40.0" prefHeight="110.0" prefWidth="110.0" />
+      <Region fx:id="sug_box4" layoutX="484.0" layoutY="40.0" prefHeight="110.0" prefWidth="110.0" />
+      <Region fx:id="sug_box3" layoutX="345.0" layoutY="40.0" prefHeight="110.0" prefWidth="110.0" />
+      <Region fx:id="sug_box2" layoutX="206.0" layoutY="40.0" prefHeight="110.0" prefWidth="110.0" />
+      <Region fx:id="sug_box1" layoutX="70.0" layoutY="40.0" prefHeight="110.0" prefWidth="110.0" />
+      <Button fx:id="btn_check" layoutX="208.0" layoutY="864.0" mnemonicParsing="false" onAction="#check" prefHeight="50.0" prefWidth="112.0" text="Check" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_canc" layoutX="486.0" layoutY="864.0" mnemonicParsing="false" onAction="#canc" prefHeight="50.0" prefWidth="112.0" text="Canc" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Region fx:id="Box1" layoutX="85.0" layoutY="55.0" prefHeight="80.0" prefWidth="80.0" />
+      <Region fx:id="Box2" layoutX="221.0" layoutY="55.0" prefHeight="80.0" prefWidth="80.0" />
+      <Region fx:id="Box3" layoutX="360.0" layoutY="55.0" prefHeight="80.0" prefWidth="80.0" />
+      <Region fx:id="Box4" layoutX="499.0" layoutY="55.0" prefHeight="80.0" prefWidth="80.0" />
+      <Region fx:id="Box5" layoutX="630.0" layoutY="55.0" prefHeight="80.0" prefWidth="80.0" />
+      <Button fx:id="Color1" layoutX="48.0" layoutY="764.0" mnemonicParsing="false" onAction="#addRed" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #ff0000;" textFill="RED" />
+      <Button fx:id="Color2" layoutX="208.0" layoutY="764.0" mnemonicParsing="false" onAction="#addGreen" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #22c722;" textFill="RED" />
+      <Button fx:id="Color3" layoutX="363.0" layoutY="764.0" mnemonicParsing="false" onAction="#addBlue" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #0000ff;" textFill="RED" />
+      <Button fx:id="Color4" layoutX="518.0" layoutY="764.0" mnemonicParsing="false" onAction="#addWhite" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #ffffff;" textFill="RED" />
+      <Button fx:id="Color5" layoutX="673.0" layoutY="764.0" mnemonicParsing="false" onAction="#addBlack" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #000000;" textFill="RED" />
+      <Region fx:id="sug_box10" layoutX="615.0" layoutY="180.0" prefHeight="110.0" prefWidth="110.0" />
+      <Region fx:id="sug_box9" layoutX="484.0" layoutY="180.0" prefHeight="110.0" prefWidth="110.0" />
+      <Region fx:id="sug_box8" layoutX="345.0" layoutY="180.0" prefHeight="110.0" prefWidth="110.0" />
+      <Region fx:id="sug_box7" layoutX="206.0" layoutY="180.0" prefHeight="110.0" prefWidth="110.0" />
+      <Region fx:id="sug_box6" layoutX="70.0" layoutY="180.0" prefHeight="110.0" prefWidth="110.0" />
+      <Label fx:id="lbl_vite" layoutX="335.0" layoutY="868.0" text="VITE: 5" textAlignment="CENTER" textFill="#1ea630">
+         <font>
+            <Font name="AniMe Matrix - MB_EN" size="30.0" />
+         </font>
+      </Label>
+      <Region fx:id="Box6" layoutX="85.0" layoutY="195.0" prefHeight="80.0" prefWidth="80.0" />
+      <Region fx:id="Box7" layoutX="221.0" layoutY="195.0" prefHeight="80.0" prefWidth="80.0" />
+      <Region fx:id="Box8" layoutX="360.0" layoutY="195.0" prefHeight="80.0" prefWidth="80.0" />
+      <Region fx:id="Box9" layoutX="499.0" layoutY="195.0" prefHeight="80.0" prefWidth="80.0" />
+      <Region fx:id="Box10" layoutX="630.0" layoutY="195.0" prefHeight="80.0" prefWidth="80.0" />
+      <Region fx:id="Box11" layoutX="85.0" layoutY="335.0" prefHeight="80.0" prefWidth="80.0" />
+      <Region fx:id="Box12" layoutX="221.0" layoutY="335.0" prefHeight="80.0" prefWidth="80.0" />
+      <Region fx:id="Box13" layoutX="360.0" layoutY="335.0" prefHeight="80.0" prefWidth="80.0" />
+      <Region fx:id="Box14" layoutX="499.0" layoutY="335.0" prefHeight="80.0" prefWidth="80.0" />
+      <Region fx:id="Box15" layoutX="630.0" layoutY="335.0" prefHeight="80.0" prefWidth="80.0" />
+      <Region fx:id="Box16" layoutX="85.0" layoutY="475.0" prefHeight="80.0" prefWidth="80.0" />
+      <Region fx:id="Box17" layoutX="221.0" layoutY="475.0" prefHeight="80.0" prefWidth="80.0" />
+      <Region fx:id="Box18" layoutX="360.0" layoutY="475.0" prefHeight="80.0" prefWidth="80.0" />
+      <Region fx:id="Box19" layoutX="499.0" layoutY="475.0" prefHeight="80.0" prefWidth="80.0" />
+      <Region fx:id="Box20" layoutX="630.0" layoutY="475.0" prefHeight="80.0" prefWidth="80.0" />
+      <Region fx:id="Box21" layoutX="85.0" layoutY="615.0" prefHeight="80.0" prefWidth="80.0" />
+      <Region fx:id="Box22" layoutX="221.0" layoutY="615.0" prefHeight="80.0" prefWidth="80.0" />
+      <Region fx:id="Box23" layoutX="360.0" layoutY="615.0" prefHeight="80.0" prefWidth="80.0" />
+      <Region fx:id="Box24" layoutX="499.0" layoutY="615.0" prefHeight="80.0" prefWidth="80.0" />
+      <Region fx:id="Box25" layoutX="630.0" layoutY="615.0" prefHeight="80.0" prefWidth="80.0" />
+      <Label fx:id="lbl_win" layoutX="175.0" layoutY="755.0" text="Victory!" visible="false">
+         <font>
+            <Font name="AniMe Matrix - MB_EN" size="72.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
